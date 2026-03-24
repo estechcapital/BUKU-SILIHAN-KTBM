@@ -185,7 +185,7 @@ function updateUIForAuth(user) {
 
     // Display user info
     const userEmailEl = document.getElementById('userEmail');
-    if (userEmailEl) userEmailEl.textContent = isAdmin ? user.email : 'Guest';
+    if (userEmailEl) userEmailEl.textContent = isAdmin ? user.email : '_______';
 
     // Enable or disable admin CRUD functionality
     setAdminMode(isAdmin);
