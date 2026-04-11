@@ -393,6 +393,18 @@ section h3 {
     text-align: right;
 }
 
+.btn-clse {
+    background-color: var(--danger-color);
+    color: var(--white);
+    border: none;
+    padding: 15px 40px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
 .btn-save {
     background: linear-gradient(135deg, var(--success-color), #2ecc71);
     color: var(--white);
