@@ -697,6 +697,22 @@ section h3 {
     color: var(--primary-color);
 }
 
+.btn-download-apk {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: var(--secondary-color);
+    color: var(--white);
+    padding: 12px 20px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
 .detail-header {
     border-bottom: 2px solid var(--light-gray);
     padding-bottom: 15px;
